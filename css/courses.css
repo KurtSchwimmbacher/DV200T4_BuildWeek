@@ -1,0 +1,11 @@
+
+.card{
+    border: none !important;
+}
+
+.card-img-top{
+    mix-blend-mode: multiply;
+    width: 25% !important;
+    height: 25% !important;
+
+}
