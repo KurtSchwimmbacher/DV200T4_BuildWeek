@@ -1,6 +1,9 @@
 /* navbar */
 /* ================================================================================================================== */
 
+nav{
+  background-color: white;
+}
 
 .navbar-brand{
   width: 0;
@@ -23,19 +26,51 @@
   justify-content: center;
 }
 
+/* hero */
+/* ================================================================================================================== */
+.hero{
+  height: 100vh;
+  background-image: url(../assets/Courses_Hero.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.title{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+
+  margin-bottom: 2rem;
+}
+
 
 
 /* cards */
 /* ================================================================================================================== */
 .card-img-top{
   width: 30% !important;
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply !important;
 }
 
 .card{
-  border: none !important;
   margin-bottom: 15rem;
-  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 15%;
+  padding-top: 5%;
+  height: 100% !important;
+
+  background: rgba( 255, 255, 255, 0.0 ) !important; 
+  box-shadow: 0 8px 24px 0 rgba(37, 37, 37, 0.37) !important;
+  backdrop-filter: blur( 5px ) !important;
+  -webkit-backdrop-filter: blur( 5px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+
+}
+
+.card:hover{
+  cursor: pointer;
 }
 
 .card-container {
@@ -64,6 +99,7 @@
   .card-back {
     transform: rotateY(180deg);
     display: none; /* Hidden until card flips */
+    
   }
   
   .card.flipped .card-back {
@@ -74,3 +110,19 @@
     display: none; /* Hide front when flipped */
   }
   
+
+  .card-title{
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 600;
+}
+
+.card-text{
+    font-family: "Prata", serif !important;
+    font-weight: 400;
+}
+
+.btn-primary{
+  border: 1px solid #FFC801 !important;
+  background-color: #FFC801 !important;
+  color: white;
+}
