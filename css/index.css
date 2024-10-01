@@ -1,9 +1,6 @@
 /* navbar */
 /* ================================================================================================================== */
 
-nav{
-    margin-bottom: 5rem;
-}
 
 .navbar-brand{
     width: 0;
@@ -15,6 +12,11 @@ nav{
     font-style: normal;
 }
 
+.active{
+    color: #FF644D !important;
+    font-weight: 600 !important;
+}
+
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
@@ -22,7 +24,7 @@ nav{
 }
 
 
-/* main content */
+/* hero */
 /* ================================================================================================================== */
 .hero{
     height: 100vh;
@@ -56,4 +58,47 @@ nav{
 
     background-color: #FF644D !important;
     border: 1px solid #FF644D !important;
+}
+
+/* why sign up with us section */
+/* ================================================================================================================== */
+
+.sign-up-title{
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.card{
+    border: none !important;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.card-title ,.card-header{
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 600;
+}
+
+.card-text{
+    font-family: "Prata", serif;
+    font-weight: 400;
+}
+
+.card-img-top{
+    margin-left: 25%;
+    width: 50% !important;
+}
+
+/* testimonial section */
+/* ================================================================================================================== */
+.card-test{
+    border: 1px solid grey !important;
+}
+
+.card-header{
+    text-align: left;
+    background-color: #FF644D !important;
+    color: #FFFFFF !important;
 }
