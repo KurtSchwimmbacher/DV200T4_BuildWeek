@@ -22,4 +22,45 @@
     flex-basis: auto;
     justify-content: center;
   }
+
+  /* hero */
+/* ================================================================================================================== */
+.hero{
+    height: 100vh;
+    background-image: url(../assets/Enroll_Hero.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   
+  .title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+  
+    margin-bottom: 2rem;
+  }
+  
+
+  /* form */
+  /* ================================================================================================================== */
+
+  .legend{
+    font-family: "Prata", serif !important;
+    font-weight: 400;
+  }
+
+  .enroll-form{
+    margin-top: -90vh;
+    font-family: "Prata", serif !important;
+    font-weight: 400;
+
+  }
+
+  .btn-primary{
+    margin-left: 10%;
+    width: 80%;
+    background-color: #D268CC !important;
+    border: 1px solid #D268CC !important;
+    color: white !important;
+  }
