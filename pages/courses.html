@@ -9,7 +9,8 @@
     <link href="../css/courses.css" rel="stylesheet">
     
     <!-- add jquery  -->
-    <script src=”https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js”></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     
     <!-- link js -->
      <script src="../js/courses.js"></script>
@@ -56,116 +57,86 @@
     </header>
 
     <!-- main content -->
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
       <div class="row">
 
         <div class="col-4 mt-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">A+ Bootcamp</h5>
-              <p class="card-text">This bootcamp prepares students for the CompTIA A+ certification exam, focusing on hardware, networking, and troubleshooting.</p>
-              <!-- make this appear on hover and hide other subtext -->
-              <p class="card-text" id="curriculum">Curriculum: <br>
-                Month 1: Introduction to hardware components, system architecture. <br>
-                Month 2: Networking essentials: IP addressing, routers, and switches. <br>
-                Month 3: Operating systems: Windows, Linux, and MacOS troubleshooting. <br>
-                Month 4: Security fundamentals, maintenance, and preparation for the CompTIA A+ exam.
-                </p>
+          <div class="card card-container">
+            <div class="card-flip">
+              <!-- Front of the card -->
+              <div class="card-front">
+                <img src="../assets/A+_logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">A+ Bootcamp</h5>
+                  <p class="card-text">This bootcamp prepares students for the CompTIA A+ certification exam, focusing on hardware, networking, and troubleshooting.</p>
+                </div>
+              </div>
+              <!-- Back of the card -->
+              <div class="card-back">
+                <div class="card-body">
+                  <h5 class="card-title">A+ Bootcamp Curriculum</h5>
+                  <p class="card-text">Month 1: Introduction to hardware components, system architecture. <br>
+                    Month 2: Networking essentials: IP addressing, routers, and switches. <br>
+                    Month 3: Operating systems: Windows, Linux, and MacOS troubleshooting. <br>
+                    Month 4: Security fundamentals, maintenance, and preparation for the CompTIA A+ exam.
+                  </p>
+                  <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-4 mt-3">
+          <div class="card card-container">
+            <div class="card-flip">
+              <!-- Front of the card -->
+              <div class="card-front">
+                <img src="../assets/python_logo.jpg" class="card-img-top" alt="python logo">
+                <div class="card-body">
+                  <h5 class="card-title">Python Bootcamp</h5>
+                  <p class="card-text">This bootcamp prepares students for the CompTIA A+ certification exam, focusing on hardware, networking, and troubleshooting.</p>
+                </div>
+              </div>
+              <!-- Back of the card -->
+              <div class="card-back">
+                <div class="card-body">
+                  <h5 class="card-title">Python Bootcamp</h5>
+                  <p class="card-text">Month 1: Introduction to Python, data types, variables, and functions.<br>
+                    Month 2: Loops, conditionals, and error handling.<br>
+                    Month 3: Working with files, data structures (lists, dictionaries, sets).<br>
+                    Month 4: Project work: Building a simple Python application (e.g., a calculator or data analysis tool).
+                  </p>
+                  <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-
         <div class="col-4 mt-3">
-          <div class="card">
-            <img src="../assets/python_logo.jpg" class="card-img-top" alt="python logo">
-            <div class="card-body">
-              <h5 class="card-title">Python Bootcamp</h5>
-              <p class="card-text">Learn the fundamentals of programming with Python, one of the most versatile languages in the industry.</p>
-              <!-- make this appear on hover and hide other subtext -->
-              <p class="card-text">Curriculum: <br>
-                Month 1: Introduction to Python, data types, variables, and functions.<br>
-                Month 2: Loops, conditionals, and error handling.<br>
-                Month 3: Working with files, data structures (lists, dictionaries, sets).<br>
-                Month 4: Project work: Building a simple Python application (e.g., a calculator or data analysis tool).
-                </p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-4 mt-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">React Bootcamp </h5>
-              <p class="card-text">Master front-end web development using React, one of the most popular JavaScript libraries.</p>
-              <!-- make this appear on hover and hide other subtext -->
-              <p class="card-text">Curriculum: <br>
-                Month 1: Introduction to JavaScript and ES6 basics. <br>
-                Month 2: Introduction to React, components, and state management. <br>
-                Month 3: Handling events, forms, and making HTTP requests. <br>
-                Month 4: Project work: Building a dynamic React-based web application.
-                </p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-4 mt-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ICDL Bootcamp</h5>
-              <p class="card-text">The ICDL bootcamp provides students with the skills to use essential computer applications effectively.</p>
-              <!-- make this appear on hover and hide other subtext -->
-              <p class="card-text">Curriculum: <br>
-                Month 1: Introduction to IT concepts and file management. <br>
-                Month 2: Word processing (MS Word, Google Docs). <br>
-                Month 3: Spreadsheets and data analysis (MS Excel, Google Sheets). <br>
-                Month 4: Presentations and databases (MS PowerPoint, Google Slides, MS Access). 
-                </p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-4 mt-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Java Bootcamp</h5>
-              <p class="card-text">Learn Java programming, an essential language for enterprise-level applications and Android development.</p>
-              <!-- make this appear on hover and hide other subtext -->
-              <p class="card-text">Curriculum: <br>
-                Month 1: Introduction to Java, setting up the environment, and basic syntax. <br>
-                Month 2: Object-oriented programming (OOP) concepts. <br>
-                Month 3: Working with files, collections, and error handling. <br>
-                Month 4: Project work: Building a Java-based application (e.g., a to-do list app).
-                </p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-4 mt-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Project Management Bootcamp</h5>
-              <p class="card-text">This bootcamp provides foundational knowledge and skills in managing IT projects, aligned with the PMP certification.</p>
-              <!-- make this appear on hover and hide other subtext -->
-              <p class="card-text">Curriculum: <br>
-                Month 1: Introduction to project management frameworks and methodologies (Agile, Waterfall). <br>
-                Month 2: Project planning, scheduling, and resource management. <br>
-                Month 3: Risk management, budgeting, and quality assurance. <br>
-                Month 4: Project work: Managing a simulated IT project using learned skills.
-                </p>
+          <div class="card card-container">
+            <div class="card-flip">
+              <!-- Front of the card -->
+              <div class="card-front">
+                <img src="../assets/react_logo.png" class="card-img-top" alt="python logo">
+                <div class="card-body">
+                  <h5 class="card-title">React Bootcamp</h5>
+                  <p class="card-text">Master front-end web development using React, one of the most popular JavaScript libraries.</p>
+                </div>
+              </div>
+              <!-- Back of the card -->
+              <div class="card-back">
+                <div class="card-body">
+                  <h5 class="card-title">React Bootcamp</h5>
+                  <p class="card-text">Month 1: Introduction to JavaScript and ES6 basics. <br>
+                    Month 2: Introduction to React, components, and state management. <br>
+                    Month 3: Handling events, forms, and making HTTP requests. <br>
+                    Month 4: Project work: Building a dynamic React-based web application.
+                  </p>
+                  <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -173,7 +144,98 @@
       </div>
     </div>
 
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        
 
+        <div class="col-4 mt-3">
+          <div class="card card-container">
+            <div class="card-flip">
+              <!-- Front of the card -->
+              <div class="card-front">
+                <img src="../assets/icdl_logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ICDL Bootcamp</h5>
+                  <p class="card-text">The ICDL bootcamp provides students with the skills to use essential computer applications effectively.</p>
+                </div>
+              </div>
+              <!-- Back of the card -->
+              <div class="card-back">
+                <div class="card-body">
+                  <h5 class="card-title">ICDL Bootcamp Curriculum</h5>
+                  <p class="card-text">Month 1: Introduction to IT concepts and file management. <br>
+                    Month 2: Word processing (MS Word, Google Docs). <br>
+                    Month 3: Spreadsheets and data analysis (MS Excel, Google Sheets). <br>
+                    Month 4: Presentations and databases (MS PowerPoint, Google Slides, MS Access). 
+                  </p>
+                  <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mt-3">
+          <div class="card card-container">
+            <div class="card-flip">
+              <!-- Front of the card -->
+              <div class="card-front">
+                <img src="../assets/java_logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Java Bootcamp</h5>
+                  <p class="card-text">Learn Java programming, an essential language for enterprise-level applications and Android development.</p>
+                </div>
+              </div>
+              <!-- Back of the card -->
+              <div class="card-back">
+                <div class="card-body">
+                  <h5 class="card-title">Java Bootcamp Curriculum</h5>
+                  <p class="card-text">Month 1: Introduction to Java, setting up the environment, and basic syntax. <br>
+                    Month 2: Object-oriented programming (OOP) concepts. <br>
+                    Month 3: Working with files, collections, and error handling. <br>
+                    Month 4: Project work: Building a Java-based application (e.g., a to-do list app).
+                  </p>
+                  <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-4 mt-3">
+          <div class="card card-container">
+            <div class="card-flip">
+              <!-- Front of the card -->
+              <div class="card-front">
+                <img src="../assets/project_management.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Project Management Bootcamp</h5>
+                  <p class="card-text">This bootcamp provides foundational knowledge and skills in managing IT projects, aligned with the PMP certification.</p>
+                </div>
+              </div>
+              <!-- Back of the card -->
+              <div class="card-back">
+                <div class="card-body">
+                  <h5 class="card-title">Project Management Bootcamp</h5>
+                  <p class="card-text">Month 1: Introduction to project management frameworks and methodologies (Agile, Waterfall). <br>
+                    Month 2: Project planning, scheduling, and resource management. <br>
+                    Month 3: Risk management, budgeting, and quality assurance. <br>
+                    Month 4: Project work: Managing a simulated IT project using learned skills.
+                  </p>
+                  <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <h3 class="mt-5" style="text-align: center; margin-top: 10rem !important;">footer</h3>
+    </footer>
 
   </body>
 </html>
