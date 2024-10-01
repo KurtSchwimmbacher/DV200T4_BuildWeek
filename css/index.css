@@ -1,0 +1,59 @@
+/* navbar */
+/* ================================================================================================================== */
+
+nav{
+    margin-bottom: 5rem;
+}
+
+.navbar-brand{
+    width: 0;
+}
+
+.nav-item ,.navbar-brand{
+    font-family: "Prata", serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+
+/* main content */
+/* ================================================================================================================== */
+.hero{
+    height: 100vh;
+    background-image: url(../assets/Hero.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+
+    margin-bottom: 2rem;
+}
+
+.subtitle{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 4rem;
+}
+
+.cta{
+    width: 100%;
+
+    font-family: "Prata", serif !important;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #FF644D !important;
+    border: 1px solid #FF644D !important;
+}
