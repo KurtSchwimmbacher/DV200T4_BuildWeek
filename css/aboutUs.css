@@ -1,0 +1,44 @@
+/* navbar */
+/* ================================================================================================================== */
+
+nav{
+    background-color: white;
+  }
+  
+  .navbar-brand{
+    width: 0;
+  }
+  
+  .nav-item ,.navbar-brand{
+    font-family: "Prata", serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .active{
+    color: #FF644D !important;
+    font-weight: 600 !important;
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+  }
+  
+/* hero */
+/* ================================================================================================================== */
+.hero{
+    height: 100vh;
+    background-image: url(../assets/aboutUs.png);
+    background-position: center;
+    background-size: contain;
+  }
+  
+.title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+  
+    margin-bottom: 2rem;
+  }
