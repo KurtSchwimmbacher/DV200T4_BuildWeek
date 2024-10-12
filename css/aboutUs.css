@@ -42,3 +42,8 @@ nav{
   
     margin-bottom: 2rem;
   }
+
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
