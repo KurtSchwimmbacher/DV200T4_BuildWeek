@@ -1,63 +1,60 @@
 /* navbar */
 /* ================================================================================================================== */
-nav{
-    background-color: white;
+
+nav {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
-
-.navbar-brand{
-    width: 0;
-}
-
-.nav-item ,.navbar-brand{
-    font-family: "Prata", serif !important;
+  
+  .navbar-brand, .nav-item {
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
-    font-style: normal;
-}
-
-.active{
-    color: #FF644D !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,...");
+  }
+  
+  .nav-item {
+    color: #262626 !important;
+  }
+  
+  .nav-item:hover, .active {
+    color: #ff644d !important;
     font-weight: 600 !important;
-}
-
-.navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: center;
-}
-
-
+  }
+  
 /* hero */
 /* ================================================================================================================== */
-.hero{
+.hero {
     height: 100vh;
     background-image: url(../assets/Hero.png);
     background-position: center;
     background-size: cover;
 }
 
-.title{
+.title {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 64px;
-
     margin-bottom: 2rem;
 }
 
-.subtitle{
+.subtitle {
     font-family: "Prata", serif;
     font-weight: 400;
     font-style: normal;
-
     margin-bottom: 4rem;
 }
 
-.cta{
+.cta {
     width: 100%;
-
     font-family: "Prata", serif !important;
     font-weight: 400;
     font-style: normal;
-
     background-color: #FF644D !important;
     border: 1px solid #FF644D !important;
 }
@@ -104,3 +101,16 @@ nav{
     background-color: #FF644D !important;
     color: #FFFFFF !important;
 }
+
+
+
+
+.footer {
+    background-color: #f8f8f8;
+    color: #888;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+  }
+  

@@ -1,49 +1,119 @@
-/* navbar */
-/* ================================================================================================================== */
+/* General Typography and Color */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #262626;
+}
 
-nav{
-    background-color: white;
-  }
-  
-  .navbar-brand{
-    width: 0;
-  }
-  
-  .nav-item ,.navbar-brand{
-    font-family: "Prata", serif !important;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .active{
-    color: #FF644D !important;
-    font-weight: 600 !important;
-  }
-  
-  .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: center;
-  }
-  
-/* hero */
-/* ================================================================================================================== */
-.hero{
-    height: 100vh;
-    background-image: url(../assets/aboutUs.png);
-    background-position: center;
-    background-size: contain;
-  }
-  
-.title{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 64px;
-  
-    margin-bottom: 2rem;
-  }
+/* Container */
+.container {
+  max-width: 1140px;
+}
 
-  .card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    transition: transform 0.3s ease; /* Smooth transition */
+/* Navbar */
+nav {
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand, .nav-link {
+  color: #262626 !important;
+  font-weight: 400;
+}
+
+.nav-item:hover, .nav-link.active {
+  color: #ff644d !important;
+  font-weight: 600 !important;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-image: url(../assets/About_hero.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #262626; 
+  text-align: left;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #262626;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); */
+}
+
+/* Card Image */
+.card-img-top {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* Card Body */
+.card-body {
+  text-align: center;
+}
+
+/* Text Alignment */
+.text-right {
+  text-align: right !important;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f8f8;
+  color: #888;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+/* Hover effects for cards */
+.card-body h5, .card-body h6, .card-body p {
+  color: #262626;
+}
+
+/* Adjust spacing */
+.mt-5, .mb-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
 }
