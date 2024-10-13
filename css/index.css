@@ -33,7 +33,24 @@ nav {
     color: #ff644d !important;
     font-weight: 600 !important;
   }
-/* Hero Section Styles */
+
+  .navbar-brand {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-brand span {
+    font-size: 24px; /* Change font size */
+    font-weight: bold; /* Make the text bold */
+    color: #000; /* Change text color */
+}
+
+  
 /* Hero Section */
 .hero {
     height: 100vh;
