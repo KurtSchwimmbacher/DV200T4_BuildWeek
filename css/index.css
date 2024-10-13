@@ -1,6 +1,21 @@
-/* navbar */
-/* ================================================================================================================== */
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Prata', serif;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Navbar */
 nav {
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -9,65 +24,58 @@ nav {
     z-index: 1000;
   }
   
-  .navbar-brand, .nav-item {
-    font-family: 'Open Sans', sans-serif !important;
+  .navbar-brand, .nav-link {
+    color: #262626 !important;
     font-weight: 400;
   }
   
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,...");
-  }
-  
-  .nav-item {
-    color: #262626 !important;
-  }
-  
-  .nav-item:hover, .active {
+  .nav-item:hover, .nav-link.active {
     color: #ff644d !important;
     font-weight: 600 !important;
   }
-  
-/* hero */
-/* ================================================================================================================== */
+/* Hero Section Styles */
+/* Hero Section */
 .hero {
     height: 100vh;
     background-image: url(../assets/Hero.png);
     background-position: center;
     background-size: cover;
-}
-
-.title {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 64px;
-    margin-bottom: 2rem;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #262626; 
+    text-align: left;
+  }
 
 .subtitle {
-    font-family: "Prata", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 4rem;
+    color: #262626;
+    font-size: 1.25rem;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.cta {
-    width: 100%;
-    font-family: "Prata", serif !important;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #FF644D !important;
-    border: 1px solid #FF644D !important;
+/* Button Styles */
+.btn.cta {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    background-color: #ff644d;
+    border: none;
 }
 
-/* why sign up with us section */
-/* ================================================================================================================== */
-
-.sign-up-title{
-    font-family: "Open Sans", sans-serif !important;
-    font-weight: 600;
-    font-size: 48px;
+.btn.cta:hover {
+    background-color: #ed8d7f;
 }
 
+/* Card Styles */
 .card{
     border: none !important;
     text-align: center; 
@@ -80,31 +88,29 @@ nav {
     font-weight: 600;
 }
 
-.card-text{
-    font-family: "Prata", serif;
-    font-weight: 400;
-}
 
 .card-img-top{
     margin-left: 25%;
     width: 50% !important;
 }
 
-/* testimonial section */
-/* ================================================================================================================== */
-.card-test{
-    border: 1px solid grey !important;
+/* Testimonials Styles */
+.card-test {
+    border: 1px solid #ff644d;
+    border-radius: 8px;
 }
 
-.card-header{
-    text-align: left;
-    background-color: #FF644D !important;
-    color: #FFFFFF !important;
+.card-test .card-header {
+    background-color: #ff644d;
+    color: white;
+    font-weight: bold;
 }
 
+.card-test .card-body {
+    background-color: #f8f9fa;
+}
 
-
-
+/* Footer */
 .footer {
     background-color: #f8f8f8;
     color: #888;
@@ -114,3 +120,21 @@ nav {
     font-size: 14px;
   }
   
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 0;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .btn.cta {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}

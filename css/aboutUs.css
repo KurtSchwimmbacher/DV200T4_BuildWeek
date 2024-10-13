@@ -117,3 +117,81 @@ h6 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
 }
+
+
+
+/* Overall styling for our students section */
+.our-students {
+  margin-top: 5rem; 
+  margin-bottom: 5rem; 
+  text-align: center; 
+}
+
+/* Title styling */
+.our-students h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333; 
+  margin-bottom: 1rem;
+}
+
+/* Subtitle styling */
+.our-students h6 {
+  font-size: 1.2rem; 
+  color: #666; 
+  margin-bottom: 2rem; 
+}
+
+/* Success stories section */
+.success-stories {
+  margin-top: 3rem; 
+}
+
+.success-stories .card {
+  border: 1px solid #ddd; 
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem; 
+}
+
+/* Statistics section */
+.statistics {
+  margin-top: 3rem;
+}
+
+.statistics .col-4 {
+  padding: 1rem; 
+  background-color: #f9f9f9; 
+  border-radius: 0.5rem;
+}
+
+/* Call to action button styling */
+.btn-primary {
+  background-color: #ff644d; 
+  border: none; 
+  color: #fff; 
+  padding: 0.5rem 1rem; 
+  font-size: 1rem; 
+  border-radius: 0.25rem; 
+  transition: background-color 0.3s; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .our-students h2 {
+      font-size: 2rem; /* Smaller title on mobile */
+  }
+
+  .our-students h6 {
+      font-size: 1rem; /* Smaller subtitle on mobile */
+  }
+
+  .statistics .col-4 {
+      margin-bottom: 2rem; /* Space below columns on mobile */
+  }
+}
